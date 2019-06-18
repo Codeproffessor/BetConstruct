@@ -1,0 +1,57 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+input{
+  width: 70%;
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.mainContainer{
+  width: 60%;
+  text-align: center;
+  margin:50px auto;
+  min-height: 600px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.mainContainer h1{
+  background-color:#818081;color:white;font-weight:600;padding: 20px;
+}
+.mainFlex{
+  display: flex;
+    justify-content: space-between;
+}
+.prosDiv, .consDiv{
+  width:50%;
+  border: 1px solid;
+  padding: 10px 0;
+}
+.divMargin{
+  margin-top:10px;
+}
+h2{
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
